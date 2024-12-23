@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><h2>Abhijan S Kashyap</h2></div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="button">
+           
+            <a href="#contact">
+                <button class="btn">Hire Me</button>
+            </a>
+            
+        </div>
+    </header>
+
+    <!-- Hero Section (Home) -->
+    <section id="home">
+        <div class="hero">
+            <div class="right">
+                <h1>Hi, I am Abhijan S Kashyap</h1>
+                <h2>Software Developer</h2>
+                <p id="dynamic-description"></p>
+                <div class="buttton">
+                    <a href="#contact">
+                    <button class="h-btn">Hire Me</button>
+                    </a>
+                    <a href="ABHIJAN S KASHYAP RESUME.pdf">
+                        <button class="h-btn">Resume</button>
+                    </a>
+                </div>
+                <div class="social-media">
+                        <li><a href="https://www.facebook.com/abhijanskashyap" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/abhijanskashyap" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/abhijan-s-kashyap" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="https://github.com/abhijanskashyap" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    
+                </div>
+            </div>
+
+            <div class="left">
+                <div class="image">
+                    <img src="profile-pic1.png" alt=""/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="dynamic-content.js"></script> <!-- Link to JavaScript -->
+</body>
+</html>
+
+
+
+<!-- Education details -->
+<section id="education">
+    <div class="education-section">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education-image">
+                <img src="about-pic1.jpg" alt="Education Image">
+            </div>
+            <div class="education-details">
+                <div class="degree">
+                    <h3>Master of Computer Applications (MCA)</h3>
+                    <p><strong>Institution: </strong> [Acharya Institute Of Technology]</p>
+                    <p><strong>Year:</strong> [2023] - Present</p>
+                    <p>Currently pursuing MCA</p>
+                </div>
+                <div class="degree">
+                    <h3>Bachelor of Science (B.Sc.) in Mathematics, Physics, and Computer Science</h3>
+                    <p><strong>Institution:</strong> [Kuvempu University]</p>
+                    <p><strong>Year:</strong> [2020] - [2023]</p>
+                    <p>Gained a solid foundation in Mathematics, Physics, and Computer Science, with a strong focus on problem-solving and analytical skills.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects Section
+    <section id="projects">
+        <div class="projects-container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Project 1: Face Recognition System</h3>
+                <p>Attendance Monitoring System using Face Recognition and Users can track their records.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 2: Mental Health Chatbot</h3>
+                <p>A Chatbot the gives suggestions to users based on their Responses.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 3: Weather App</h3>
+                <p>A weather forecasting application that fetches data from a public API to display real-time weather information.</p>
+                <a href="#">View Project</a>
+            </div> 
+        </div>
+    </section> -->
+
+<!-- Projects Section -->
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1: Face Recognition System</h3>
+                <p>Attendance Monitoring System using Face Recognition and Users can track their records.</p>
+            <a href="https://github.com/abhijanskashyap/Attendance-Monitoring-System-using-Face-Recognition" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+            <img src="project2.jpg" alt="Project 2">
+            <<h3>Project 2: Mental Health Chatbot</h3>
+            <p>A Chatbot the gives suggestions to users based on their Responses.</p>
+            <a href="#">View Project</a>
+        </div>
+        <!-- <div class="project-card">
+            <img src="project3.jpg" alt="Project 3">
+            <h3>Project 3</h3>
+            <p>A description of Project 3.</p>
+            <a href="#">View Project</a>
+        </div> -->
+    </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact</h2>
+            <p>If you'd like to work together or just want to connect, feel free to reach out!</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
